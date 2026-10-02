@@ -47,5 +47,5 @@ nav {
   width: 33.33%;             /* Sets each column to one-third of the row */
   padding: 20px;
   box-sizing: border-box;    /* Includes padding in width calculations */
-  border: 1px solid #ccc;    /* Optional: adds a visual border */
+  border: 0px solid #ccc;    /* Optional: adds a visual border */
 }
