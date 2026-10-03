@@ -36,16 +36,28 @@ nav {
     display: block;
 }
 
-.container {
-  display: flex;             /* Places children side-by-side */
-  justify-content: space-between; /* Adds space between columns */
-  gap: 20px;                 /* Optional: gap between columns */
+.columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    line-height: 3;
 }
 
 .column {
-  flex: 1;                   /* Makes columns grow/shrink evenly */
-  width: 33.33%;             /* Sets each column to one-third of the row */
-  padding: 20px;
-  box-sizing: border-box;    /* Includes padding in width calculations */
-  border: 0px solid #ccc;    /* Optional: adds a visual border */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.left {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.right {
+    text-align: left;
 }
