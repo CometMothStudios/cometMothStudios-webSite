@@ -24,7 +24,7 @@ header a {
 
 /* Content layout padding */
 main {
-    max-width: 1600px;
+    max-width: 100%;
     margin: 20px auto;
     background: white;
     padding: 20px;
@@ -61,4 +61,16 @@ nav {
 
 .right {
     text-align: left;
+}
+
+/* Styling for mobile devices */
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .sidebar, .content {
+    float: none;
+    width: 100%;
+  }
 }
