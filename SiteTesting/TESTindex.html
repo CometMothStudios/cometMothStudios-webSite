@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Name | Innovation & Trust</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="logo">BizCorp</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="cta-btn">Get Started</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>We Build the Future of Tech</h1>
+            <p>High-performance solutions tailored to scale your global enterprise.</p>
+            <a href="#contact" class="btn-primary">Book a Consultation</a>
+        </div>
+    </section>
+
+    <!-- Interactive Contact Form -->
+    <section id="contact" class="contact-section">
+        <h2>Connect With Us</h2>
+        <form id="leadForm">
+            <input type="text" id="userName" placeholder="Your Name" required>
+            <input type="email" id="userEmail" placeholder="Your Email" required>
+            <button type="submit">Submit Request</button>
+        </form>
+        <div id="formFeedback" class="hidden"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
